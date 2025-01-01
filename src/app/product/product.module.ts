@@ -9,6 +9,7 @@ import {
   MatCardImage, MatCardSubtitle,
   MatCardTitle
 } from "@angular/material/card";
+import {FlexModule} from "@angular/flex-layout";
 
 
 
@@ -24,7 +25,8 @@ import {
     MatCardActions,
     MatCardImage,
     MatCardTitle,
-    MatCardSubtitle
+    MatCardSubtitle,
+    FlexModule
   ]
 })
 export class ProductModule { }
