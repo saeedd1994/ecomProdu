@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import {ProductModule} from './product/product.module';
 import {HttpClientModule} from "@angular/common/http";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatToolbar, MatToolbarRow} from "@angular/material/toolbar";
+import {MatAnchor} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -15,7 +17,10 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ProductModule
+    ProductModule,
+    MatToolbar,
+    MatToolbarRow,
+    MatAnchor
   ],
   providers: [
     provideAnimationsAsync()
